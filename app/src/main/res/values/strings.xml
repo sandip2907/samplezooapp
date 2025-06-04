@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">samplezooapp</string>
+    <string name="network_error">Network Error</string>
+    <string name="json_error">Malformed response</string>
+    <string name="auth_error">Unauthorized request Error</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="rto_error">Request timeout Error</string>
+    <string name="server_error">Server Error</string>
+    <string name="too_many_request_error">Too many request Error</string>
+    <string name="name">Name : %1$s</string>
+    <string name="phylum">Phylum : %1$s</string>
+    <string name="prey">Prey : %1$s</string>
+    <string name="predators">Predators : %1$s</string>
+    <string name="scientific_name">Scientific name : %1$s</string>
+    <string name="slogan">Slogan : %1$s</string>
+    <string name="lifespan">Lifespan : %1$s</string>
+    <string name="wingspan">Wingspan : %1$s</string>
+    <string name="habitat">Habitat : %1$s</string>
+</resources>

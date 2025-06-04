@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_card_padding">5dp</dimen>
+    <dimen name="item_card_width">300dp</dimen>
+    <dimen name="item_card_height">130dp</dimen>
+
+    <dimen name="box_padding_top">50dp</dimen>
+    <dimen name="box_padding_start_end">20dp</dimen>
+
+
+    <dimen name="search_button_padding_top">10dp</dimen>
+    <dimen name="loading_error_button_padding_top">50dp</dimen>
+    <dimen name="list_padding_top">5dp</dimen>
+
+</resources>
