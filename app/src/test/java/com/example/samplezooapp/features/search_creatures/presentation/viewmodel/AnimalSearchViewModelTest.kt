@@ -1,30 +1,27 @@
 package com.example.samplezooapp.features.search_creatures.presentation.viewmodel
 
+import com.example.samplezooapp.core_networking.utils.Result
 import com.example.samplezooapp.features.search_creatures.domain.model.Animal
 import com.example.samplezooapp.features.search_creatures.domain.model.Characteristics
 import com.example.samplezooapp.features.search_creatures.domain.model.Taxonomy
 import com.example.samplezooapp.features.search_creatures.domain.usecase.GetAnimalsUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.test.TestDispatcher
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
-
 import org.junit.Test
 import org.junit.rules.TestWatcher
 import org.junit.runner.Description
 import org.mockito.Mock
 import org.mockito.Mockito.`when`
 import org.mockito.MockitoAnnotations
-
-import com.example.samplezooapp.core_networking.utils.Result
 
 class AnimalSearchViewModelTest {
 
